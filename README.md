@@ -10,3 +10,4 @@ My personal home page.
 - [ ] product page
 - [ ] about page
 - [ ] github code analsis graph
+- [ ] change cname
