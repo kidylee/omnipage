@@ -6,15 +6,15 @@
 <meta name="title" content="Li An" />
 <meta name="description" content="Web Designer and Fauxtogpraher" />
 <link rel="image_src" href="/images/logo.png" />
-   <meta property="og:type" content="website" />
+   <!-- <meta property="og:type" content="website" />
         <meta property="og:url" content="http://dicesales.com/" />
         <meta property="og:image" content="http://dicesales.com/images/pic.png" />
         <meta property="og:site_name" content="Li An" />
         <meta property="og:description" content="A Filipino, 25-years-old sushi lover, web designer &amp; fauxtogpraher based in Christchurch, New Zealand." />
-        <meta property="fb:admins" content="100000292419168" />
+        <meta property="fb:admins" content="100000292419168" /> -->
     <link rel="shortcut icon" id="favicon" href="favicon.ico">
 <meta name="author" content="Li An">
-<link rel="canonical" href="http://www.dicesales.com/index.php" />
+<link rel="canonical" href="http://www.kidylee.com/index.html" />
 
 <link href='css/normalize.css' rel='stylesheet' type='text/css'>
 <link href='css/styles.css' rel='stylesheet' type='text/css'>
@@ -66,7 +66,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.pn
 
 <div class="wrapper">
   <div class="main">
-    <section class="page1 animated fadeIn  bg1"><a name="home" class="showThis"></a>
+    <section class="page1 animated fadeIn  <%= 'bg' + (Random.new.rand(100) % 9).to_s %>"><a name="home" class="showThis"></a>
       <div class="static"></div>
     <div class="shadow animated fadeIn"></div>
       <div class="page_container">
@@ -133,6 +133,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.pn
           <br />
          
     <div id="fb-root"></div>
+<!--     
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -140,7 +141,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award-left.pn
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=131174080374122";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
+ -->
 <div class="fb-like" data-href="http://dicesales.com/" data-width="200" data-colorscheme="dark" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
         </div>
         <!-- end align -->

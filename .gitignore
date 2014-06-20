@@ -218,4 +218,4 @@ pip-log.txt
 #############
 ## Kidy
 #############
-.Gemfile.lock
+Gemfile.lock
